@@ -8,7 +8,6 @@ from video_reader import VideoReader
 
 IMG_SIZE = 128
 CATEGORIES = ['real', 'fake']
-
 model1 = keras.models.load_model('double_trained_model.h5')
 model2 = keras.models.load_model('model_00_20.h5')
 model3 = keras.models.load_model('model_20_40.h5')
